@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: "Outfit", sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+.qr-container{
+    border-radius: 23px;
+
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.qr-image img{
+    width: 300px;
+    height: 300px;
+    border-radius: 13px;
+}
+p{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
